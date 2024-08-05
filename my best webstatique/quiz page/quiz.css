@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    background-color: #0B0B0C;
+    justify-content: space-between;
+    padding: 0 75px;
+    border: 1px #707070 solid;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+#main{
+    background-color: #121212;
+    padding-bottom: 156px;
+}
+.time p {
+    margin: 0;
+    padding: 43px 0 0 45px;
+    font-size: larger;
+    color: white;
+}
+.number{
+    color: white;
+    padding: 0 0 0 45px;
+    font-size: larger;
+}
+.haut{
+    display: flex;
+    justify-content: center;
+    padding-top: 23px;
+    margin: 0 227px;
+}
+.haut h1{
+    margin: 0 23px;
+    color: white;
+    font-size: xx-large;
+}
+.options{
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    max-width: 70%;
+    margin: 91px auto;
+    gap: 35px 37px;
+}
+.options button{
+    min-width: 204px;
+    min-height: 44px; 
+    background-color: #E00B2E;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submitButton{
+    display: flex;
+    justify-content: center;
+}
+.submitButton button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: #3F3737;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+/*footer*/
+footer {
+    background: #2A2525;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer a {
+    color: #A73737;
+}
+@media (min-width: 320px) and (max-width: 480px ) {
+    header {
+        padding: 4px 20px;
+    }
+
+    header img {
+        width: 61px;
+        height: 63px;
+        padding-left: 4px;
+    }
+
+    ul {
+        padding: 0;
+        align-items: center;
+    }
+
+    ul li {
+        padding: 5px;
+    }
+
+    ul li a {
+        font-size: 12px;
+    }
+    .haut {
+        padding: 53px 10% 0;
+        margin: 0 23px;
+    }
+    .haut h1 {
+        font-size: x-large;
+        margin: 0px 27px;
+    }
+    .options {
+        grid-template-columns: 1fr;
+        margin-top: 64px;
+        margin-bottom: 35px;
+    }
+    #main {
+        padding-bottom: 41px;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px ) {
+    html ,body{
+        height: 100%;
+    }
+    header {
+        padding: 20px  20px;
+    }
+
+    header img {
+        width: 98px;
+        height: 80px;
+        padding-left: 4px;
+    }
+
+    ul {
+        padding: 0;
+        align-items: center;
+    }
+
+    ul li {
+        padding: 5px;
+    }
+
+    ul li a {
+        font-size: 21px;
+    }
+    .time p {
+        font-size: x-large;
+        padding-top: 52px;
+    }
+    .number {
+        font-size: x-large;
+
+    }
+    .haut {
+        padding: 53px 10% 0;
+        margin: 0 23px;
+    }
+    .haut h1 {
+        font-size: x-large;
+        margin: 0px 27px;
+    }
+    .options {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 64px;
+        margin-bottom: 55px;
+        max-width: 85%;
+
+    }
+    .options button {
+        font-size: 17px;
+        padding: 4px;
+
+    }
+    #main {
+        padding-bottom: 41px;
+    }
+    .submitButton button {
+        width: 154px;
+        height: 48px;
+        font-size: 17px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1023px ) {
+    header {
+        padding: 20px  20px;
+    }
+
+    header img {
+        width: 98px;
+        height: 80px;
+        padding-left: 4px;
+    }
+
+    ul {
+        padding: 0;
+        align-items: center;
+    }
+
+    ul li {
+        padding: 5px;
+    }
+
+    ul li a {
+        font-size: 21px;
+    }
+    .time p {
+        font-size: x-large;
+        padding-top: 52px;
+    }
+    .number {
+        font-size: x-large;
+
+    }
+    .haut {
+        padding: 53px 10% 0;
+        margin: 0 23px;
+    }
+    .haut h1 {
+        font-size: x-large;
+        margin: 0px 27px;
+    }
+    .options {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 64px;
+        margin-bottom: 55px;
+        max-width: 85%;
+
+    }
+    .options button {
+        font-size: 17px;
+        padding: 4px;
+
+    }
+    #main {
+        padding-bottom: 41px;
+    }
+    .submitButton button {
+        width: 154px;
+        height: 48px;
+        font-size: 17px;
+    }
+}
